@@ -9,7 +9,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 export default class Products extends Component {
   render() {
     let bikes = [];
-    if (window.location.host === "1jvrt.csb.app") {
+    if (window.location.host === "localhost:3000") {
       bikes = [
         {
           id: 1,
